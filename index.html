@@ -23,9 +23,9 @@
       <h1 class="storyText">{{ storyText }}</h1>
     </div>
     <div class="input-box">
-      <input type="text" id="command-input" autofocus>
+      <input type="text" id="command-input" v-bind:placeholder='placeholder' autofocus>
     <!-- MUSIC!! -->
-    <audio autoplay="autoplay" loop="true" volume="0">
+    <audio autoplay="autoplay" loop="true" id='music'>
          <source src="audio/dungeon.wav" />     
      </audio>
     </div>

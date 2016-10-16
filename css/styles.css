@@ -7,12 +7,35 @@
 
 }
 #command-input{
-	font-size:1em;
+	font-size:25px;
 }
 body {
-	background: url('http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg');
+	background: url('../img/parchment.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.story-container{
+	height: 85vh;
+
+
+}
+#command-input{
+	width: 90%;
+	border-bottom:;
+	background-color: transparent;
+	box-shadow:none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #474747;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #474747;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #474747;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #474747;
 }
