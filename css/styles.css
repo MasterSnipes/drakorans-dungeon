@@ -22,8 +22,7 @@ body {
 
 }
 #command-input{
-	width: 90%;
-	border-bottom:;
+	border-bottom:none;
 	background-color: transparent;
 	box-shadow:none;
 }

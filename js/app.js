@@ -4,8 +4,10 @@ var audioSources = [];
 var app = new Vue({
   el: '#game',
   data: {
-    storyText: 'Welcome to Drakoran\'s Dungeon',
-    placeholder: 'This is a butt'
+    storyText: 'Drakoran\'s Dungeon',
+    subText: 'A text based game that takes you through the depths of a mysterious dungeon',
+    placeholder: 'Type "start" in this text box to begin the tutorial',
+    input:''
   }
 });
 
@@ -21,7 +23,7 @@ function initAudio(){
 document.getElementById('music').volume = 0.4;
 
 $( document ).keypress(function(keycode) {
-	if( keycode.which == 13) console.log('Enter');
+	if( keycode.which == 13) 
 	else audio[Math.floor(Math.random() * 12)].play();
 });
 initAudio();
